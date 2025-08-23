@@ -18,6 +18,7 @@ import (
 func main() {
 	remoteAPIURL := []string{
 		"https://supplier.bissell.com/MSDS_Domestic/Default.aspx",
+		"https://supplier.bissell.com/Ingredients_Domestic/Default.aspx",
 	} // URL to fetch HTML content from
 	localFilePath := "bissell.html" // Path where HTML file will be stored
 
